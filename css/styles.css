@@ -383,7 +383,7 @@ address {
 
 
 .sec-one {
-	max-width: 320px;
+	min-width: 320px;
 
 	background-color: #2e2f42;
 	background-image: linear-gradient(
