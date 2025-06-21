@@ -390,14 +390,14 @@ address {
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)
 		),
-		
-			url(../images/mobile/people-office-mob-x1.jpg) 1x;
-@media screen and (min-resolution: 2x) {
-				.sec-one {
-					background-image:
-						linear-gradient(rgba(46, 47, 66, 0.7),
-							rgba(46, 47, 66, 0.7)),
-						url(../images/mobile/people-office-mob-x2.jpg) 2x
+			url(../images/mobile/people-office-mob-x1.jpg);
+
+@media screen and (min-resolution: x2) {
+.sec-one {
+			background-image:
+				linear-gradient(rgba(46, 47, 66, 0.7),
+					rgba(46, 47, 66, 0.7)),
+				url(../images/mobile/people-office-mob-x2.jpg)
 				}	}
 
 	background-repeat: no-repeat;
@@ -451,7 +451,7 @@ address {
 				rgba(46, 47, 66, 0.7),
 				rgba(46, 47, 66, 0.7)
 			),
-			url(../images/tablet/people-office-tab-x1.jpg) 1x;
+			url(../images/tablet/people-office-tab-x1.jpg);
 	}
 }
 @media screen and (min-resolution: 2x){
@@ -459,7 +459,7 @@ address {
 		background-image: 
 		linear-gradient(rgba(46, 47, 66, 0.7),
 					rgba(46, 47, 66, 0.7) ),
-					url(../images/tablet/people-office-tab-x2.jpg) 2x
+					url(../images/tablet/people-office-tab-x2.jpg)
 	}
 }
 	
