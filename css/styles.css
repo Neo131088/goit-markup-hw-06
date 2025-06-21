@@ -453,6 +453,13 @@ address {
 			),
 			url(../images/tablet/people-office-tab-x1.jpg);
 	}
+	.sec-one-h {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		max-width: 496px;
+		margin-bottom: 36px;
+	}
 }
 @media screen and (min-resolution: 2x){
 	.sec-one {
@@ -461,20 +468,15 @@ address {
 					rgba(46, 47, 66, 0.7) ),
 					url(../images/tablet/people-office-tab-x2.jpg)
 	}
+		.sec-one-h {
+			font-weight: 700;
+			font-size: 56px;
+			line-height: 1.07;
+			max-width: 496px;
+			margin-bottom: 36px;
+		}
 }
 	
-	.sec-one-h {
-		font-weight: 700;
-		font-size: 56px;
-		line-height: 1.07;
-		text-align: center;
-		letter-spacing: 0.02em;
-		color: #ffffff;
-		max-width: 496px;
-		margin: 0 auto;
-		margin-bottom: 36px;
-	}
-
 
 @media screen and (min-width: 1158px) {
 	.sec-one {
@@ -486,6 +488,13 @@ address {
 			),
 				url(../images/desk/people-office-desk-x1.jpg) 1x;
 	}
+		.sec-one-h {
+			font-weight: 700;
+			font-size: 56px;
+			line-height: 1.07;
+			max-width: 496px;
+			margin-bottom: 36px;
+		}
 }
 @media screen and (min-resolution: 2x) {
 	.sec-one {
@@ -494,6 +503,13 @@ address {
 				rgba(46, 47, 66, 0.7)),
 			url(../images/desk/people-office-desk-x2.jpg) 2x
 	}
+		.sec-one-h {
+			font-weight: 700;
+			font-size: 56px;
+			line-height: 1.07;
+			max-width: 496px;
+			margin-bottom: 36px;
+		}
 }
 
 
